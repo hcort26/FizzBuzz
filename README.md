@@ -1,18 +1,34 @@
-## Getting Started
+# FizzBuzz Program in Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## What is this project?
 
-## Folder Structure
+This project is a simple Java program that prints numbers from **1 to 100** while following these rules:
 
-The workspace contains two folders by default, where:
+1. If a number is **divisible by 3**, it prints **"Fizz"** instead of the number.
+2. If a number is **divisible by 5**, it prints **"Buzz"** instead of the number.
+3. If a number is **divisible by both 3 and 5**, it prints **"FizzBuzz"** instead of the number.
+4. If a number is **not divisible by 3 or 5**, it prints the number itself.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### How does it work?
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+The program uses a **for loop** to go through numbers from `1` to `100`. It checks whether the current number is divisible by `3`, `5`, or both, using **if-else statements**. Based on the condition, it prints the correct output.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Example Output
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```plaintext
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+...
