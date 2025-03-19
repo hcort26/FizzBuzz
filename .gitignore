@@ -11,6 +11,7 @@ hs_err_pid*
 replay_pid*
 .vscode/
 bin/
+ALL_OF_MY_PASSWORDS.txt
 
 ##############################
 ## Maven
